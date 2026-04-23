@@ -9,14 +9,14 @@
   :root {
     --bg-dark: #0a0c0f;
     --bg-card: #11161c;
-    --primary-rust: #c95a0f;
-    --primary-glow: #e07a2c;
-    --secondary-dirt: #8b6b3c;
+    --primary-rust: #c90f0f;
+    --primary-glow: #e02c2c;
+    --secondary-dirt: #8b3c3c;
     --track-gravel: #2d2a24;
-    --text-light: #ece8e0;
-    --text-muted: #b9b1a2;
+    --text-light: #ece0e0;
+    --text-muted: #b2a9a9;
     --border-grit: #3e3a33;
-    --accent-warning: #f4b942;
+    --accent-warning: #f44242;
     --success-mud: #6f8f6b;
     --shadow-heavy: 0 20px 35px -12px rgba(0,0,0,0.6);
     --transition-snap: all 0.25s ease-in-out;
@@ -88,17 +88,17 @@
   .btn-primary {
     background: var(--primary-rust);
     border-color: var(--primary-rust);
-    color: #0a0c0f;
-    box-shadow: 0 4px 12px rgba(201,90,15,0.3);
+    color: #ececec;
+    box-shadow: 0 4px 12px rgba(201, 15, 15, 0.3);
   }
   .btn-primary:hover {
     background: var(--primary-glow);
     border-color: var(--primary-glow);
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px -5px rgba(201,90,15,0.5);
+    box-shadow: 0 10px 20px -5px rgba(201, 15, 15, 0.5);
   }
   .btn-outline:hover {
-    background: rgba(201,90,15,0.2);
+    background: rgba(201, 15, 15, 0.2);
     border-color: var(--primary-glow);
     transform: translateY(-2px);
   }
@@ -114,7 +114,7 @@
   .logo {
     font-size: 1.6rem;
     font-weight: 800;
-    background: linear-gradient(135deg, #f3a25b, #e06a1f);
+    background: linear-gradient(135deg, #f35b5b, #e01f1f);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -315,7 +315,7 @@
   .graphic-img span {
     font-size: 3rem;
     font-weight: 800;
-    background: linear-gradient(145deg, #c95a0f, #f6b172);
+    background: linear-gradient(145deg, #c90f0f, #f67272);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -386,7 +386,7 @@
     background: #1a1e26;
   }
   ::-webkit-scrollbar-thumb {
-    background: #c95a0f;
+    background: #c90f0f;
     border-radius: 10px;
   }
   /* small extra grit */
